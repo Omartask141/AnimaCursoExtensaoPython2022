@@ -23,6 +23,7 @@ else:
 
 #E se eu quisessem perguntar o gênero (M = Masculino e F = Feminino)
 #Mostre (...e você também precisa/precisou prestar o serviço militar obrigatório)
+#quando eu quero verificar igualdade é ==
 genero = input("Informe o gênero M=Masculino, F=Feminino, O=Outros: ")
 if idade >= 18 and genero == "M":
   print("... e você também precisa/precisou prestar o serviço militar obrigatório")
